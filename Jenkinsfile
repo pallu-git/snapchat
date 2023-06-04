@@ -13,7 +13,8 @@ pipeline {
                                      }}
                           stage('Deployment'){
                                steps {
-                                       sh 'cp target/Instagram.war /home/pallavi/Documents/Devop-tools/apache-tomcat-9.0.73/webapps
-'
+                                       sh 'cp target/Instagram.war /home/pallavi/Documents/Devop-tools/apache-tomcat-9.0.73/webapps'
+                               }
+                           
                                      }}}
 
